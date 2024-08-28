@@ -1,9 +1,9 @@
-package ru.plm.logs;
+package ru.plm.log;
 
 import org.bukkit.plugin.Plugin;
 
 @SuppressWarnings("unused")
-public interface LogsAPI {
+public interface LogAPI {
 
     void info(Plugin plugin, String message);
 

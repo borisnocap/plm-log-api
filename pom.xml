@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.plm</groupId>
-    <artifactId>plm-logs-api</artifactId>
+    <artifactId>plm-log-api</artifactId>
     <version>1</version>
 
     <properties>
