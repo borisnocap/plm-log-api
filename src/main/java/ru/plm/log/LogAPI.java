@@ -9,7 +9,7 @@ public interface LogAPI {
 
     void info(Plugin plugin, String message, Object... args);
 
-    void warn(Plugin plugin, String message);
+    void error(Plugin plugin, String message);
 
-    void warn(Plugin plugin, String message, Object... args);
+    void error(Plugin plugin, String message, Object... args);
 }
