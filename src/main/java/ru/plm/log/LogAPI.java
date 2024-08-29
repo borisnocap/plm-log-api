@@ -15,4 +15,8 @@ public interface LogAPI {
     void error(Plugin plugin, String message);
 
     void error(Plugin plugin, String message, Object... args);
+
+    void error(Plugin plugin, Throwable thrown, String message);
+
+    void error(Plugin plugin, Throwable thrown, String message, Object... args);
 }
